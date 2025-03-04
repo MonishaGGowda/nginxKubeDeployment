@@ -13,4 +13,5 @@ This repository contains a simple Kubernetes configuration to deploy an **Nginx 
 ### Apply the Kubernetes Configuration
 Run the following command to deploy Nginx:
 ```sh
-kubectl apply -f nginx-deployment.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
